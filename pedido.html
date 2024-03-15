@@ -20,11 +20,9 @@
 
     <nav>
         <div class="menu">
-            <a href="Larrazabal's.html" target="_blank">Inicio</a>
-            <a href="coches.html" target="_blank">Coches</a>
-            <a href="pickups.html" target="_blank">Pick-Ups</a>
-            <a href="pickups.html" target="_blank">Furgonetas</a>
-            <a href="pedido.html" target="_blank">Pedido Individual</a>
+            <a href="Larrazabal's.html" target="_self">Inicio</a>
+            <a href="coches.html" target="_self">Coches</a>
+            <a href="pickups.html" target="_self">Pick-Ups, 4x4 y Furgonetas</a>
         </div>
     </nav>
 
@@ -40,41 +38,93 @@
                 <input type="tel" id="telefono" name="telefono" required><br>
                 <label for="ciudad">Ciudad:</label><br>
                 <input type="text" id="ciudad" name="ciudad"><br><br>
+                <label for="sexo">Género:</label><br>
+                <input type="radio" id="masculino" name="sexo" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="femenino" name="sexo" value="femenino">
+                <label for="femenino">Femenino</label><br><br>
+                <label for="formaPago">Forma de Pago:</label><br>
+                <input type="radio" id="contado" name="formaPago" value="contado" required>
+                <label for="contado">Pago al Contado</label>
+                <input type="radio" id="financiado" name="formaPago" value="financiado">
+                <label for="financiado">Financiamiento</label><br><br>
                 <input type="submit" value="Enviar Presupuesto">
+                <input type="reset" value="Restablecer">
             </form>
         </section>
 
         <section class="section2">
             <h2>Selecciona el Vehículo</h2>
-            <table class="lista">
-                <tr>
-                    <th>Vehículo</th>
-                    <th>Precio</th>
-                </tr>
-                <tr>
-                    <td>Coches Pick-Up</td>
-                    <td>$XXXXX</td>
-                </tr>
-                <tr>
-                    <td>Todoterrenos</td>
-                    <td>$XXXXX</td>
-                </tr>
-                <tr>
-                    <td>Furgonetas</td>
-                    <td>$XXXXX</td>
-                </tr>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Coches</th>
+                        <th>Coste de Importación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alemania</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <td>Japón</td>
+                        <td>600</td>
+                    </tr>
+                    <tr>
+                        <td>Estados Unidos</td>
+                        <td>500</td>
+                    </tr>
+                    <tr>
+                        <td>Inglaterra</td>
+                        <td>300</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Otros Vehículos</th>
+                        <th>Coste de Importación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pick-Ups</td>
+                        <td>500</td>
+                    </tr>
+                    <tr>
+                        <td>4x4</td>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <td>Furgonetas</td>
+                        <td>300</td>
+                    </tr>
+                </tbody>
             </table>
         </section>
 
         <section class="section3">
             <h2>Comentarios Adicionales</h2>
-            <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="20"></textarea>
         </section>
     </main>
 
     <footer>
         <img src="images\logo-concesionario.jpg" alt="Logo del Concesionario" class="footer-logo">
         <ul class="footer-links">
+            <ul>
+                <li>
+                    Correo Electrónico: larrazabal@cochesypickups.com
+                </li><br>
+                <li>
+                    Teléfono: +34 685859369
+                </li><br>
+                <li>
+                    Dirección: Calle Rueda, Gasolineville, estados Unidos
+                </li>
+            </ul><br>
             <li><a href="Larrazabal's.html">Inicio</a></li>
             <li><a href="coches.html">Nuestros Coches</a></li>
             <li><a href="pickups.html">Nuestras Pick-Ups, 4x4 y furgonetas</a></li>
