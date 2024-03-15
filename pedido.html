@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto de Concesionario</title>
+    <link rel="stylesheet" href="css\pedido.css">
+</head>
+
+<body>
+    <header>
+        <legend>Best cars & trucks in town!</legend>
+        <div class="cabeza">
+            <img src="images\logo-concesionario.jpg" alt="Logo del Concesionario" class="imagenarriba">
+            <h1 id="lema">Larrazabal's</h1>
+            <img src="images\logo-concesionario.jpg" alt="Logo del Concesionario" class="imagenarriba">
+        </div>
+    </header>
+
+    <nav>
+        <div class="menu">
+            <a href="Larrazabal's.html" target="_blank">Inicio</a>
+            <a href="coches.html" target="_blank">Coches</a>
+            <a href="pickups.html" target="_blank">Pick-Ups</a>
+            <a href="pickups.html" target="_blank">Furgonetas</a>
+            <a href="pedido.html" target="_blank">Pedido Individual</a>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="section1">
+            <h2>Datos Personales</h2>
+            <form action="#" method="POST">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="telefono">Teléfono:</label><br>
+                <input type="tel" id="telefono" name="telefono" required><br>
+                <label for="ciudad">Ciudad:</label><br>
+                <input type="text" id="ciudad" name="ciudad"><br><br>
+                <input type="submit" value="Enviar Presupuesto">
+            </form>
+        </section>
+
+        <section class="section2">
+            <h2>Selecciona el Vehículo</h2>
+            <table class="lista">
+                <tr>
+                    <th>Vehículo</th>
+                    <th>Precio</th>
+                </tr>
+                <tr>
+                    <td>Coches Pick-Up</td>
+                    <td>$XXXXX</td>
+                </tr>
+                <tr>
+                    <td>Todoterrenos</td>
+                    <td>$XXXXX</td>
+                </tr>
+                <tr>
+                    <td>Furgonetas</td>
+                    <td>$XXXXX</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="section3">
+            <h2>Comentarios Adicionales</h2>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+        </section>
+    </main>
+
+    <footer>
+        <img src="images\logo-concesionario.jpg" alt="Logo del Concesionario" class="footer-logo">
+        <ul class="footer-links">
+            <li><a href="Larrazabal's.html">Inicio</a></li>
+            <li><a href="coches.html">Nuestros Coches</a></li>
+            <li><a href="pickups.html">Nuestras Pick-Ups, 4x4 y furgonetas</a></li>
+            <li><a href="pedido.html">Pedido individual</a></li>
+        </ul>
+        <p>&copy; 2024 Larrazabal's. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
