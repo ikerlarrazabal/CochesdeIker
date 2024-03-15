@@ -44,6 +44,31 @@ header {
         max-width: 50%;
         margin-bottom: 20px;
     }
+
+    .section1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section4 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image {
+        max-width: 90%;
+        margin-bottom: 20px;
+    }
 }
 
 nav {
